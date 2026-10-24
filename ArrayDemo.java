@@ -11,9 +11,14 @@ public class ArrayDemo{
     num[4]=11;
 
     // for loop to print the array
-    // for (int i=0; i<5; i++){
-    //     System.out.println(num[i]);
-    // }
-System.out.println(num[2]);
+// for (int i=0; i<5; i++){
+//         System.out.println(num[i]);
+//     }   
+
+
+//for-each loop or enhanced for loop
+  for(int n:num){
+    System.out.println(n);
+}
     }   
 }

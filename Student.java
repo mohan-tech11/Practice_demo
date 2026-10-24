@@ -23,34 +23,32 @@
 // }
 
 //2
+class Computer{
+    public void Play(){
+        System.out.println("playing music...");
 
-// class Computer{
-//     public void Play(){
-//         System.out.println("playing music...");
+    }
+    public String GetMeAPen(int cost){
+        if(cost >= 10){
+            return "I will not give you a pen of cost: " + cost;
+        }
+        else{
+            return "NO pen available of cost: " + cost;
+        }
+    }
+}
 
-//     }
-//     public String GetMeAPen(int cost){
-//         if(cost >= 10){
-//             return "I will not give you a pen of cost: " + cost;
-//         }
-//         else{
-//             return "NO pen available of cost: " + cost;
-//         }
-//     }
-// }
+ public class Student {
+ public static void main(String[] args) {
 
-//3
+    Computer com = new Computer();
+    com.Play();
 
-//  public class Student {
-//  public static void main(String[] args) {
+    String pen = com.GetMeAPen(7);
+    System.out.println(pen);
 
-//     Computer com = new Computer();
-//     com.Play();
-//     String pen = com.GetMeAPen(7);
-//     System.out.println(pen);
-
-//  }
-// }
+ }
+}
 
 // class Calculator {
 // public int add(int n1, int n2) {
@@ -72,29 +70,29 @@
 
 
 //Method Overloading
-class Calculator {
-public int add(int n1, int n2) {
-return n1 + n2;
-}
-// public int add(int n1, int n2, int n3) {
-// return n1 + n2 + n3;            
-
-// }
-// public double add (double n1, int n2){
+// class Calculator {
+// public int add(int n1, int n2) {
 // return n1 + n2;
 // }
-}
+// // public int add(int n1, int n2, int n3) {
+// // return n1 + n2 + n3;            
 
-public class Student {
-public static void main(String[] args) {
+// // }
+// // public double add (double n1, int n2){
+// // return n1 + n2;
+// // }
+// }
 
-    // Creating an object of the Calculator class
-Calculator cal = new Calculator();
+// public class Student {
+// public static void main(String[] args) {
 
-    int r1 = cal.add(10, 20);
-    // int r1 = cal.add(10, 20, 30);
-    // double r1 = cal.add(10, 20);
-    System.out.println("Addition: " + r1);
-}
+//     // Creating an object of the Calculator class
+// Calculator cal = new Calculator();
 
-}
+//     int r1 = cal.add(10, 20);
+//     // int r1 = cal.add(10, 20, 30);
+//     // double r1 = cal.add(10, 20);
+//     System.out.println("Addition: " + r1);
+// }
+
+// }
