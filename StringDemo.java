@@ -6,7 +6,7 @@ public class StringDemo{
         StringBuffer sb =new StringBuffer("Mohan");
         sb.append(" Naik");
         sb.insert(10, " java");
-        sb.deleteCharAt(4);
+        sb.deleteCharAt(5);
         System.out.println(sb);
     }
 }
