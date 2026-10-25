@@ -29,7 +29,7 @@ public class Static_Demo {
         Mobile m2=new Mobile();
         m2.price=19000;
         m2.brand="Iphone";
-                Mobile.name="Smartphone";
+        Mobile.name="Smartphone";
 
         m2.call();
 
