@@ -39,6 +39,6 @@ public class Demo{
 
          System.out.println(h.getAge());
          System.out.println(h.getName());
-         System.out.println(h.getAdress());;
+         System.out.println(h.getAdress()); 
     } 
 }
