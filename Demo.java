@@ -44,7 +44,8 @@ public class Demo{
         h.setAge(20);
         h.setName("Mohan");
         h.setAdress("sirsi");
-        h.setSalary(10000);
+         h.setSalary(10000);
+
 
          System.out.println(h.getAge());
          System.out.println(h.getName());
