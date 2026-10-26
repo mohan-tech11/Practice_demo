@@ -4,6 +4,7 @@ class human{
     private int age;
     private String name;
     private String adress;
+    private int salary;
 
 
     public int getAge(){
@@ -27,6 +28,13 @@ class human{
         this.adress=adress;
         return adress;
     }
+    public int getSalary(){
+        return salary;
+    }
+    public int setSalary(int salary){
+        this.salary=salary;
+        return salary;
+    }
 }
 
 public class Demo{
@@ -36,9 +44,11 @@ public class Demo{
         h.setAge(20);
         h.setName("Mohan");
         h.setAdress("sirsi");
+        h.setSalary(10000);
 
          System.out.println(h.getAge());
          System.out.println(h.getName());
          System.out.println(h.getAdress()); 
+         System.out.println(h.getSalary());
     } 
 }
