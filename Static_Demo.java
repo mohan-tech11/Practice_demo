@@ -22,13 +22,13 @@ public class Static_Demo {
         m1.price=10000;
         m1.brand="Samsung";
                 Mobile.name="Smartphone";
-                System.out.println(m1.price);
-                System.out.println(m1.brand);
-                System.out.println(Mobile.name);
+                // System.out.println(m1.price);
+                // System.out.println(m1.brand);
+                // System.out.println(Mobile.name);
 
-                System.out.println();
+                // System.out.println();
 
-        // m1.call();
+        m1.call();
         
        
         Mobile m2=new Mobile();
@@ -36,11 +36,11 @@ public class Static_Demo {
         m2.brand="Iphone";
         Mobile.name="Smartphone";
 
-        System.out.println(m2.price);
-                System.out.println(m2.brand);
-                System.out.println(Mobile.name);
+        // System.out.println(m2.price);
+        //         System.out.println(m2.brand);
+        //         System.out.println(Mobile.name);
 
-        // m2.call();
+        m2.call();
                         System.out.println();
 
 
