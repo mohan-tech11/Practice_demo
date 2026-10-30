@@ -10,7 +10,8 @@ class Mobile{
     public static void text(){
         System.out.println("Texting");
     //you can use static variable inside static method, but can not use 
-    // non static variable inside static method 
+    // non static variable inside non-static method and instnce variable iniside static method
+    }
     
     }
 

@@ -9,9 +9,8 @@ class Mobile{
       System.out.println("Static");
       
   }
-  public Mobile(){
-      price=10000;
-      brand="Samsung";
+  public Mobile()   //constructor
+  {
       System.out.println("Constructor");
   }
     
@@ -22,10 +21,16 @@ public class StaticDemo{
     public static void main(String args[]){
 
         Mobile m1=new Mobile();
+         System.out.println(m1.price);
+        System.out.println(m1.brand);
+
         m1.price=10000;
         m1.brand="Samsung";
 
-                Mobile m2=new Mobile();
+        // System.out.println(m1.price);
+        // System.out.println(m1.brand);
+
+        // Mobile m2=new Mobile();
 
        
     }
