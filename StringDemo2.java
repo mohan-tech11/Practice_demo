@@ -2,9 +2,9 @@ public class StringDemo2{
     public static void main(String args[]){
 
         String name="Mohan";
-        name=name+" Naik";
+        name=name+"Naik";
 
-        System.out.println("Hello "+name);
+        System.out.println("Hello"+name);
 
         String s1="Mohan";
         String s2="Mohan";

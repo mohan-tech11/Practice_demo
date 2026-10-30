@@ -4,9 +4,10 @@ public class StringDemo{
     public static void main(String arg[]){
 
         StringBuffer sb =new StringBuffer("Mohan");
-        sb.append(" Naik");
+        // System.out.println(sb.capacity());
+        sb.append(" Naik ");
         sb.insert(10, " java");
-        sb.deleteCharAt(5);
+        sb.deleteCharAt(10);
         System.out.println(sb);
     }
 }
