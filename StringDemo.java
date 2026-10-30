@@ -8,6 +8,9 @@ public class StringDemo{
         sb.append(" Naik ");
         sb.insert(10, " java");
         sb.deleteCharAt(10);
+ 
+                // System.out.println(sb.length());
+
         System.out.println(sb);
     }
 }
