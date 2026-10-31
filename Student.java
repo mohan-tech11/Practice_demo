@@ -30,7 +30,7 @@ class Computer{
     }
     public String GetMeAPen(int cost){
         if(cost >= 10){
-            return "I will not give you a pen of cost: " + cost;
+            return "I will give you a pen of cost: " + cost;
         }
         else{
             return "NO pen available of cost: " + cost;
@@ -44,7 +44,7 @@ class Computer{
     Computer com = new Computer();
     com.Play();
 
-    String pen = com.GetMeAPen(7);
+    String pen = com.GetMeAPen(10);
     System.out.println(pen);
 
  }

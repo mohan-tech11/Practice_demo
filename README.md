@@ -9,3 +9,6 @@ constants -- All capital (PIE, BRAND, DATA etc)
 
 
 new student(); //anonymous object(used only once), no reference variable
+
+Method overriding -- multiple method with same name and same parameter in a different classes.
+Method overloading -- multiple methods with same name but having a different parameter in a Same class.
