@@ -16,8 +16,6 @@ class Mobile{
     }
 
    
-
-
 public class Static_Demo {
     public static void main(String[] args) {
         Mobile m1=new Mobile();
