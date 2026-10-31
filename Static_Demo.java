@@ -37,7 +37,7 @@ public class Static_Demo {
         Mobile m2=new Mobile();
         m2.price=19000;
         m2.brand="Iphone";
-        m2.name="phone"; //it will not ptint anything, because of static variable
+        m2.name="phone"; //it will not print anything, because of static variable
         Mobile.name="Smartphone";
 
         // System.out.println(m2.price);

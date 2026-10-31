@@ -18,7 +18,8 @@ class B extends A{
     }
     public B(int n)//parameterized
     {
-                super();
+                // super();
+                this();//this is used to call current class constructor 
 
         System.out.println(" in B int");
     }
