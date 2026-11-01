@@ -6,7 +6,9 @@ public class InheritanceDemo{
          int r3=ac.mult(9, 5);
         int r4=ac.div(8, 2);
         double r5=ac.power(2, 3);
-        System.out.println(r1 + " " + r2 + " " + r3 + " " + r4 + " " + r5 );
+                int r6=ac.mod(20, 7);
+
+        System.out.println(r1 + " " + r2 + " " + r3 + " " + r4 + " " + r5 + " " + r6);
     }
 
 }
