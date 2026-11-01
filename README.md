@@ -25,3 +25,12 @@ Access modifier --
 2. private -- it can only be acceesed in the the same class  inrespective of the package.
 3. Defualt -- it can be access in the same package.(in same class, outside class but in same package)
 4. Protected -- it can be access in the same package not out side the package(you can access outside the package also by create the subclass of the protected class outside the package)
+
+Final keyword -- can be used with the variable, class, method 
+you can't change the value assigned with the final keyword 
+Example:
+final int num=9;
+num=8; // the error will occur when you change the value of num;
+sout(num);
+
+Annonmous inner class -- a class which doesn't have any name or 'class' keyword.

@@ -17,7 +17,7 @@ class B extends A {
 // Method overriding
 public class OverRide{
     public static void main(String args[]){
-        B b=new B();
+        A b=new B();
         int r=b.add(10,20);
         System.out.println(r);
 
