@@ -8,6 +8,8 @@ public class ExceptionHandling{
             b=20/a;
             System.out.println(arr[4]);
             System.out.println(str.length());
+            // if(b==2)
+            // throw new Exception("Exception thrown");
 
         }
         catch(ArithmeticException e){
