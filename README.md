@@ -34,3 +34,25 @@ num=8; // the error will occur when you change the value of num;
 sout(num);
 
 Annonmous inner class -- a class which doesn't have any name or 'class' keyword.
+
+Lamda expressions -- by using lamda expression, indroduced in java 8, we can reduce the code of annoymous inner class
+
+Ex:
+@FunctionalInterface 
+interface A{
+
+    void show(int i);
+}
+
+
+public class InterfaceClass{
+    public static void main(String args[]){
+        
+        A obj=(int i)->{ // lambda expression in anonymous class, it is used to implement functional interface
+        // even you don't need to specify datatype in (int i) in A obj.. like 'A obj=(i)'.
+            System.out.println("in show method:"+i);
+        };
+        obj.show(11);
+       
+    }
+}
