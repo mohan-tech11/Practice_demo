@@ -1,12 +1,12 @@
 
 class counter{
     int count;
-    public void increment(){
+    public synchronized  void increment(){
         count++;
     }
 }
 public class mutation {
-    public static void main(String args[]){
+    public static void main(String args[])throws InterruptedException{
         counter c = new counter();
        Runnable obj = new Runnable(){
            public void run(){
@@ -29,6 +29,9 @@ public class mutation {
          Thread t2 = new Thread(obj1);
             t1.start();
             t2.start();
+
+            t1.join();
+            t2.join();
        System.out.println(c.count);
  }
 }
