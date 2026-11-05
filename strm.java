@@ -24,14 +24,16 @@ import java.util.List;
 
 public class strm {
     public static void main(String[] args) {
-        List<Integer> list = Arrays.asList(5, 2, 6, 1, 3, 2, 5, 6, 1, 3);
+        List<Integer> list = Arrays.asList(5, 2, 6, 1, 3, 2, 5);
 
-        list.stream().forEach(System.out::println); // all values
+        list.stream().forEach(System.out::println);
+        System.out.println(); // all values
 
         list.stream()
             .filter(n -> n % 2 == 0)
             .forEach(System.out::println); // even values
 
+        System.out.println();
         list.parallelStream().forEach(System.out::println); // all values, possibly in any order
     }
 }
