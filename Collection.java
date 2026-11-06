@@ -10,7 +10,7 @@ public class Collection{
         num.add(9);
         num.add(5);
 
-// System.out.println(num.get(1)); //for List, we can get index but for Set, we cannot get index because Set is unordered collection.
+System.out.println(num.get(1)); //for List, we can get index but for Set, we cannot get index because Set is unordered collection.
 System.out.println();
         for (int n : num    ){
                     System.out.println(n);
