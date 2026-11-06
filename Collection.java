@@ -2,8 +2,8 @@ import java.util.*;
 public class Collection{
     public static void main(String args[]){
         
-        // List<Integer>  num= new ArrayList<Integer>();
-        Set<Integer> num= new HashSet<Integer>();
+        List<Integer>  num= new ArrayList<Integer>();
+        // Set<Integer> num= new HashSet<Integer>();
         num.add(7);
         num.add(6);
         num.add(3);
