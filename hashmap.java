@@ -7,10 +7,10 @@ public class hashmap{
         map.put(5,"Rahul");
         map.put(2,"Jai");
         map.put(6,"Amit");
-        // System.out.println(map);
+        System.out.println(map);
         //key-based removal
         map.remove(6);
-        // System.out.println("Updated list of elements: "+map);
+        System.out.println("Updated list of elements: "+map);
         System.out.println(map.values());
                 System.out.println(map.keySet());
 
